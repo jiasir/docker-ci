@@ -1,3 +1,5 @@
+# Sample https://github.com/spops/docker-jenkins-sample.git
+
 # Build the image to be used for this job.
 IMAGE=$(docker build . | tail -1 | awk '{ print $NF }')
 
